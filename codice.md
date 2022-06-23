@@ -29,7 +29,7 @@ print(list)
 #estraggo files:
 #(lo script non riesce ad estrarre tutti i file quindi creo una variabile che mi \\
     #ritorna i file andati in errore -non estratti- per una successiva valutazione)
-file_error = [] #fuori dal loop altrimenti inizializza a zero ad ogni ciclo
+file_error = [] 
 for i in range(len(list)-1):
        try:
            with ZipFile(list[i], "r") as zip:
