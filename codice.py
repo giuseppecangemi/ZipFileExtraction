@@ -1,5 +1,3 @@
-```python
-
 from zipfile import ZipFile
 
 file = "path_file.zip"
@@ -84,10 +82,3 @@ import shutil
 
 for i in range(len(lista_final_path)-1):
     shutil.move(lista_final_path[i], path)
-    
-
-
-
-
-
-```
